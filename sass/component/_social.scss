@@ -1,0 +1,33 @@
+.specialist-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .specialist-soc-item {
+    width: 44px;
+    height: 44px;
+  }
+  .specialist-soc-link {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color var(--tra) ;
+    &:hover,
+    &:focus {
+      background-color: var(--accent-color);
+    }
+  }
+  .specialist-soc-icon {
+    fill: #afb1b8;
+    transition: fill var(--tra);
+    .specialist-soc-link:hover &,
+    .specialist-soc-link:focus & {
+      fill: #ffffff;
+    }
+  }
+
