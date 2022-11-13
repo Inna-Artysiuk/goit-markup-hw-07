@@ -1,15 +1,15 @@
 .about {
     padding-top: 0;
   }
-  .about-list {
+  .picture-list {
     display: flex;
     gap: var(--card-set-gap);
   }
-  .about-item {
+  .picture-list__item {
     position: relative;
     width: calc((100% - var(--card-set-gap) * 2) / 3);
   }
-  .after-about-title{
+  .picture-list__title{
   position: absolute;
   bottom: 0;
   width: 100%;

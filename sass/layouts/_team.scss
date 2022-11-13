@@ -1,15 +1,15 @@
-.team {
+.people {
     background-color: var(--background-grup);
   }
-  .section-list {
+  .people__list {
     display: flex;
     gap: var(--card-set-gap);
   }
-  .picture {
+  .people__item {
     width: calc((100% - var(--card-set-gap) * 3) / 4);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   }
-  .name {
+  .people__title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -18,7 +18,7 @@
     color: var(--primary-text-color);
     margin-bottom: 10px;
   }
-  .specialist {
+  .people__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -30,7 +30,7 @@
   .picture {
     background-color: var(--headin-color);
   }
-  .name-special {
+  .people__name {
     padding-top: 30px;
     padding-bottom: 30px;
   }
