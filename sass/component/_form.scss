@@ -54,12 +54,13 @@
   color: #FFFFFF;
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 28px;
   margin-left: 10px;
-  cursor: pointer;
+    cursor: pointer;
   transition: background-color var(--tra);
   &:focus,
   &:hover{

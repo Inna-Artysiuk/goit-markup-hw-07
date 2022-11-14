@@ -366,6 +366,7 @@ button {
 .people__item {
   width: calc((100% - var(--card-set-gap) * 3) / 4);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: var(--headin-color);
 }
 
 .people__title {
@@ -386,10 +387,6 @@ button {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-bottom: 16px;
-}
-
-.picture {
-  background-color: var(--headin-color);
 }
 
 .people__name {
@@ -663,6 +660,7 @@ button {
   color: #FFFFFF;
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
   padding-top: 10px;
   padding-bottom: 10px;
